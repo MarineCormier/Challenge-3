@@ -1,0 +1,90 @@
+/* Description: Reproduction du site SOLEDAD
+Auteurs: Marine Cormier et Eliez Maigné
+*/
+body {
+    width: 100%;
+    height: 100%;
+}
+.container-fluid {
+    text-align: center;
+    width: 1170px;
+    padding: 0;
+}
+
+.article {
+    text-align: justify;
+    margin: 33px;
+}
+.article_img {
+    width: 571px;
+    height: 380px;
+    background-size: cover;
+}
+.category {
+    font-family: 'Lato', sans-serif;
+    color: #a60505;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.post-title {
+    font-family: 'Playfaair Display', serif;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 22px;
+}
+
+.author_date {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    color: #888888;
+    
+}
+hr {
+    width: 60px;
+    height: 1px;
+    background-color: #a60505;
+}
+p {
+    font-size: 14px;
+    line-height: 28px;
+    
+}
+.article {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.bar::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 35%;
+    background: #DEDEDE;
+    display: block;
+    margin-top: 40px;    
+}
+
+.share-bar {
+    background: #ffffff !important;
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+.bar::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 35%;
+    background: #DEDEDE;
+    margin-top: 40px;
+    
+}
+i {
+    margin-left: 14px;
+}
