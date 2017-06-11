@@ -5,6 +5,74 @@ body {
     width: 100%;
     height: 100%;
 }
+
+/*=====================NAVBAR=======================*/
+
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar{
+    padding-top: 17px;
+    padding-left: 0px;
+    border:none;
+}
+
+ul li a{
+    color: #999999;
+    font-family: 'Playfair Display Regular', serif;
+    font-size: 13px;
+}
+
+a {
+    padding-right: 40px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+ul li {
+    display: inline;
+}
+
+/*=====================HEADER=======================*/
+
+header {
+    height: 300px;
+    background-color: #F5F5F5;
+}
+
+h1 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    padding-bottom: 40px;
+}
+.presentation_img {
+    display: flex;
+    margin-left: 0;
+    width: 100%;
+    height: 700px;
+
+}
+.article_avant {
+
+    background-color: #FFFFFF;
+    height: 100px;
+}
 .container-fluid {
     text-align: center;
     width: 1170px;
