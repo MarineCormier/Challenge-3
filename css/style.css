@@ -73,6 +73,9 @@ h2 {
     background-color: #FFFFFF;
     height: 100px;
 }
+
+/*=====================ARTICLES=======================*/
+
 .container-fluid {
     text-align: center;
     width: 1170px;
@@ -156,3 +159,21 @@ p {
 i {
     margin-left: 14px;
 }
+
+footer {
+    padding: 0;
+    margin: 0;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+
+.img_insta {
+    height: 150px;
+    max-width: 150px;
+}
+
+.container {
+    width: 100%
+}
+
