@@ -127,6 +127,11 @@ h2 {
     font-size: 12px;
     margin-top: 30px;
 }
+.category:hover {
+    text-decoration: underline;
+    text-decoration-color: #a60505;
+    cursor: pointer;
+}
 .post-title {
     font-family: 'Playfaair Display', serif;
     font-weight: bold;
@@ -134,7 +139,11 @@ h2 {
     letter-spacing: 1px;
     margin: 22px;
 }
+.post-title:hover {
+    color: #888888;
+    cursor: pointer;
 
+}
 .author_date {
     font-family: 'Lato', sans-serif;
     font-style: italic;
@@ -148,6 +157,7 @@ a {
 a:hover {
     color:#a60505;
     text-decoration: none;
+    cursor: pointer;
 }
 
 /*=====================CORPS DES POSTS=======================*/
@@ -216,6 +226,7 @@ i {
 
 i:hover {
     color: #a60505;
+    cursor: pointer;
 }
 
 /*=====================GESTION DE LA PAGINATION=======================*/
@@ -240,11 +251,13 @@ i:hover {
 ​
 ​
 ​
-.pagination>.active>a {
+
+}
+/*.pagination>.active>a {
     background-color: #a60505;
     color: white;
     border-color: #888888;
-}
+}*/
 
 /*=====================GESTION DES BORDURES EXTERIEURES GAUCHES ET DROITES=======================*/
 
@@ -265,9 +278,20 @@ i:hover {
     color: #888888;
 }
 
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #a60505;
+    color: white;
+    border-color: #888888;
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+    border-color: black;
+    color: black;
+    background-color: #ffffff;
+}
 /*=====================SEPARATION DU CONTAINER ET FOOTER=======================*/
 
 ​
+
 .separation {
     content: "";
     align-content: center;
@@ -335,6 +359,7 @@ h3 {
 
 ​.recent-header:hover {
     color: #a60505;
+    cursor: pointer
 }
 
 .recent-date {
