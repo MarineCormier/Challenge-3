@@ -8,69 +8,55 @@ body {
 
 /*=====================NAVBAR=======================*/
 
-nav{
+nav {
     height: 60px;
     width: 100%;
     background-color: black;
 }
 
-.navbar{
+.navbar {
     padding-top: 17px;
     padding-left: 0px;
     border:none;
+    text-align: center;
 }
 
-ul li a{
-    color: #999999;
-    font-family: 'Playfair Display Regular', serif;
-    font-size: 13px;
-}
-
-a {
-    padding-right: 40px;
-}
-
-ul {
-    list-style: none;
-    margin: 0;
+.container {
+    background-color: black;
+    width: 100%
 }
 
 ul li {
+    color: #999999;
+    font-family: 'Playfair Display Regular', serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+
+ul li {
     display: inline;
+
+}
+
+
+li:hover {
+    color:#FFFFFF;
+    text-decoration: underline;
+    text-decoration-line: bold;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 /*=====================HEADER=======================*/
 
 header {
-    height: 200px;
+    height: 275px;
     background-color: #F5F5F5;
-}
-
-
-.jumbotron {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    z-index: 1;
-    display: flex;
-    background-image: url(img/bag.jpg); ;
-    justify-content: center;
-    align-items: center;
-}
-
-.billet {
     z-index: 2;
-    text-align: center;
-    padding-top: 0px;
-    background-color: white;
-    position: absolute;
-    width: 430px;
-}
-
-.presentation_img {
-    display: flex;
-    width: 100%;
 }
 
 h1 {
@@ -89,6 +75,40 @@ h2 {
     padding-bottom: 40px;
 }
 
+.jumbotron {
+    padding-top: 0;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 3;
+    display: flex;
+    background-image: url(img/bag.jpg);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.billet {
+   width: 500px;
+   height: 150px;
+   text-align: center;
+   background-color: white;
+   border-style: double;
+   border-color: #717981;
+   position: absolute;
+   top: 50%; left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 5;
+   float: center;
+}
+
+.presentation_img {
+  width: 100%;
+  height: 500px; overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
 
 .article_avant {
     padding: 0;
@@ -389,9 +409,9 @@ h3 {
 footer {
     padding: 0;
     margin: 0;
-    height: 300px;
+    height: 400px;
     width: 100%;
-    background-color: black;
+    background-color: #212121;
 }
 
 .insta-img-section {
@@ -408,30 +428,57 @@ footer {
     height: 364px;
 }
 
-.container {
-    width: 100%
+.icon {
+    height: 97px;
 }
 
-.icon {
-    min-height: 40px;
-    margin-left: -95px;
-    margin-right: -95px;
-    display: flex;
-    padding-top: 25px;
-    justify-content: center;
-    align-items: center;
-    background-color: #212121;
-    border-bottom: solid 2px #717981;
-}
-.icon ul{
-    padding-bottom: 30px;
-}
-.icon li {
+.icon a {
+    color: #999999;
+    font-size: 14px;
     text-decoration: none;
-    font-size: 40px;
-    display: inline;
+    font-family: 'PlayfairDisplay-Bold';
+    padding-right: 0px;
+}
+
+.icon ul {
+    display: flex;
     justify-content: center;
-    align-items: center;
+    
+}
+
+.icon li {
+    padding-right: 0px;
+    padding-left: 0px;
+    line-height: 97px;
+    flex-direction: row;
+    list-style: none;
+    border-bottom: 1px solid #999999;
+    
+}
+.icon a:hover {
+    color: #ffffff;
+}
+
+.icon span {
+    padding-left: 10px;
+}
+
+.icon span:hover {
+    color: #ffffff;
+}
+.icon .fa {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #999999;
+    border-radius: 100%;
+    padding: 11px;
+
+}
+
+.icon .fa:hover {
+    color: #313131;
+    background-color: #ffffff;
+    
 }
 
 .last {
@@ -442,7 +489,7 @@ footer {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.last p{
+.last p {
     text-align: center;
     line-height: 65px;
     color: #FFFFFF;
